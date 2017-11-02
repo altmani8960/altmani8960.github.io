@@ -11,3 +11,7 @@ p {
   text-align: center;
   color: blue;
 }
+
+.bluev p {
+  color: green;
+}
