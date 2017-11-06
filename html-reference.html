@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+  </body>
+  
+  <h1 style="text-align:center;border:2px solid DodgerBlue;font-size:60px">Reference page</h1>
+     <h2="text-align:left;">HTML is a Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+       HTML elements are the building blocks of HTML pages
+       HTML elements are represented by tags
+      HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
+Browsers do not display the HTML tags, but use them to render the content of the page
+<br>Each page contains:</br></h2>
+<img src="/httpatomoreillycomsourceoreillyimages1495723.png" width="200" height="100">
+  <h1 style="color:red;">HTML elements</h1>
+  <h3>What consitutes a valid HTML page?</h3>
+  
+  <p>All HTML pages contain the following elements which determine the functionality of the page in chronological order:</p>
+  <ol>
+    <li>&lt!DOCTYPE html&gt</li>
+    <li>&lthtml&gt</li>
+    <li>&lthead&gt : This element is a container for metadata (data about data) and is placed between the html tag and the body tag.</li>
+    <li>&ltbody&gt : this determines where the content will be written</li>
+    <li>&lttitle&gt  : defines the title of the document</li>
+    </ol>
+  
+  <div>
+   <h3>Heading</h3>
+   <p>Headings are defined with the &lth1&gt to &lth6&gt tags. 
+   Each number determines the size of the heading</p>
+   <p>Example:</p>
+   <h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+</div>
+
+<div>
+  <h3>Paragraph</h3>
+  <p>&ltp&gt defines a paragraph</p>
+  <p>All of this writing is an example of paragraphs
+  <br>You can add different spaces, colors, fonts and sizes and etc depending on your coding...</p>
+</div>
+  
+<div>
+  <h3>Line Breaks</h3>
+  <p>&ltbr&gt defines breaks between lines</p>
+  <p>You can use it in the <br>beginning</br><br>middle</br> <br>or end</br><br> of the sentence</br></p>
+</div>  
+  
+  <div>
+   <h3>Lines</h3> 
+   <p>&lthr&gt creates a line between one section of the writing or another (Use this tag to define a thematic change in the content)</p> 
+   <p>Example</p>
+   <p><hr> I can have a separation between multiple texts through lines</hr></p>
+   <p><hr> </hr></p>
+  </div>
+  
+  <div>
+   <h3>Comments</h3> 
+    <p>&lt !--      -- &gt. Through this tag, one can add notifications and reminders in the code source itself</p>
+    <p>It will look like this <br> &lt!-- Write your comments here--&gt </br></p>
+  </div>
+  
+  <div>
+    <h3>Links</h3>
+    <p>&lta&gt is used to create links to other pages/websites/subpages...</p>
+    <p>Links may be included in texts and images</p>
+    <p>Syntax:</p> 
+    <p> The &lta href&gt attribute specifies the destination address</p>
+    <p>Also (in images): &lta href="certain text"&gt
+    &ltimg src="local/public link"&gt
+    &lta&gt</p>
+    <p>Examples:</p>
+    <a href="https://www.w3schools.com/html/html_images.asp">
+      <img src="/images/6gb1reryFyEpj5xbcMPazWY9Nr2.jpg" style="width:100px;height:100px;border:0;">
+    </a>
+    <a href="https://www.w3schools.com/html/">Visit Links HTML tutorial</a>
+  </div>
+  
+  <div>
+    <h3>Images</h3>
+    <p>&ltimg&gt define an image</p>
+    <p>The &ltimg&gt tag is empty, it contains attributes only, and does not have a closing tag.
+    <br>The "src" attribute specifies the URL (web address) of the image:</br></p>
+    <p>One can also add the width and hight through the following syntax:
+    style="width:500px;height:600px;"</p>
+    <p>Example:</p>
+    <a href="https://www.w3schools.com/html/html_images.asp">
+      <img src="/images/ilit.png" style="width:100px;height:100px;border:0;"
+    </a>
+  </div>
+  
+  <div>
+  <h3>Lists</h3>
+  <p>There are 3 ways to show lists</p>
+  <p> Unordered lists: It starts with the &ltul&gt tag. Each list item starts with the &ltli&gt tag. The list items will be marked with bullets (small black circles) by default (but can be changed): </p>
+  <p>Example:</p>
+  <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+  <p> Oredered Lists: It starts with the &ltol&gt tag. Each list item starts with the &ltli&gt tag. The list items will be marked with numbers by default (but can bec changed through the type attribute)</p>
+  <p>Example:</p>
+  <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+  <p> A Description List: A description list is a list of terms, with a description of each term.
+The &ltdl&gt tag defines the description list, while the &ltdt&gt tag defines the term (name), and the &ltdd&gt tag describes each term </p>
+<p>Example:</p>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+  </div>
+  
+  <div>
+    <h3>Tables</h3>
+    <p>An HTML table is defined with the &lttable&gt tag.
+<br>Each table row is defined with the &lttr&gt tag.</br><br>A table header is defined with the &ltth&gt tag.</br><br>A table data/cell is defined with the &lttd&gt tag.</p>
+<p>Examples:</p>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+  </div>
+  
+  <div>
+    <h3>Blocks</h3>
+    <p>The &ltdiv&t element has no required attributes, but both style and class are common. When used together with CSS, the &ltdiv&gt element can be used to style blocks of content</p>
+    <p>Examples:</p>
+    <div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+  </div>
+</html>
 
