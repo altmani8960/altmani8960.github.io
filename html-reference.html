@@ -23,11 +23,17 @@ Browsers do not display the HTML tags, but use them to render the content of the
   
   <p>All HTML pages contain the following elements which determine the functionality of the page in chronological order:</p>
   <ol>
-    <li>&lt!DOCTYPE html&gt</li>
-    <li>&lthtml&gt</li>
-    <li>&lthead&gt : This element is a container for metadata (data about data) and is placed between the html tag and the body tag.</li>
-    <li>&ltbody&gt : this determines where the content will be written</li>
-    <li>&lttitle&gt  : defines the title of the document</li>
+    <li>&lt;!DOCTYPE html&gt : must be the very first thing in your HTML document, before the lt;htmlgt; tag.
+
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.<br><a href="https://www.w3schools.com/tags/tag_doctype.asp">w3schools Link</a></br></li>
+    <li>&lt;html&gt; : tells the browser that this is an HTML document.     
+    <br>(<a href="https://www.w3schools.com/tags/tag_html.asp">w3schools Link</a></br></li>
+    <li>&lthead&gt : This element is a container for metadata (data about data) and is placed between the html tag and the body tag.
+    <br><a href="https://www.w3schools.com/tags/tag_head.asp">w3schools Link</a></br></li>
+    <li>&ltbody&gt : contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc
+    <br><a href="https://www.w3schools.com/tags/tag_body.asp">w3schools Link</a></br></li>
+    <li>&lttitle&gt  : required in all HTML documents and it defines the title of the document
+    <br><a href="https://www.w3schools.com/tags/tag_title.asp">w3schools Link</a></li>
     </ol>
   
   <div>
@@ -41,6 +47,7 @@ Browsers do not display the HTML tags, but use them to render the content of the
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
+<a href="https://www.w3schools.com/html/html_headings.asp">w3schools Link</a>
 </div>
 
 <div>
@@ -48,12 +55,14 @@ Browsers do not display the HTML tags, but use them to render the content of the
   <p>&ltp&gt defines a paragraph</p>
   <p>All of this writing is an example of paragraphs
   <br>You can add different spaces, colors, fonts and sizes and etc depending on your coding...</p>
+  <a href="https://www.w3schools.com/html/html_paragraphs.asp">w3schools Link</a>
 </div>
   
 <div>
   <h3>Line Breaks</h3>
-  <p>&ltbr&gt defines breaks between lines</p>
+  <p>&ltbr&gt defines breaks between lines (inserts a single line break)</p>
   <p>You can use it in the <br>beginning</br><br>middle</br> <br>or end</br><br> of the sentence</br></p>
+  <a href="https://www.w3schools.com/tags/tag_br.asp">w3schools Link</a>
 </div>  
   
   <div>
@@ -62,12 +71,14 @@ Browsers do not display the HTML tags, but use them to render the content of the
    <p>Example</p>
    <p><hr> I can have a separation between multiple texts through lines</hr></p>
    <p><hr> </hr></p>
+   <a href="https://www.w3schools.com/tags/tag_hr.asp">w3schools Link</a>
   </div>
   
   <div>
    <h3>Comments</h3> 
     <p>&lt !--      -- &gt. Through this tag, one can add notifications and reminders in the code source itself</p>
     <p>It will look like this <br> &lt!-- Write your comments here--&gt </br></p>
+    <a href="https://www.w3schools.com/html/html_comments.asp">w3schools Link</a>
   </div>
   
   <div>
@@ -83,7 +94,7 @@ Browsers do not display the HTML tags, but use them to render the content of the
     <a href="https://www.w3schools.com/html/html_images.asp">
       <img src="/images/6gb1reryFyEpj5xbcMPazWY9Nr2.jpg" style="width:100px;height:100px;border:0;">
     </a>
-    <a href="https://www.w3schools.com/html/">Visit Links HTML tutorial</a>
+    <br><a href="https://www.w3schools.com/html/html_links.asp">Visit Links HTML tutorial</a></br>
   </div>
   
   <div>
@@ -95,8 +106,9 @@ Browsers do not display the HTML tags, but use them to render the content of the
     style="width:500px;height:600px;"</p>
     <p>Example:</p>
     <a href="https://www.w3schools.com/html/html_images.asp">
-      <img src="/images/ilit.png" style="width:100px;height:100px;border:0;"
+      <img src="/images/ilit.png" style="width:100px;height:100px;border:0;">
     </a>
+    <a href="https://www.w3schools.com/html/html_links.asp">w3schools Link</a>
   </div>
   
   <div>
@@ -117,7 +129,7 @@ Browsers do not display the HTML tags, but use them to render the content of the
   <li>Milk</li>
 </ol>
   <p> A Description List: A description list is a list of terms, with a description of each term.
-The &ltdl&gt tag defines the description list, while the &ltdt&gt tag defines the term (name), and the &ltdd&gt tag describes each term </p>
+The &lt;dl&gt; tag defines the description list, while the &ltdt&gt tag defines the term (name), and the &ltdd&gt tag describes each term </p>
 <p>Example:</p>
 <dl>
   <dt>Coffee</dt>
@@ -125,12 +137,15 @@ The &ltdl&gt tag defines the description list, while the &ltdt&gt tag defines th
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl>
+<a href="https://www.w3schools.com/html/html_lists.asp">w3schools Link</a>
   </div>
   
   <div>
     <h3>Tables</h3>
-    <p>An HTML table is defined with the &lttable&gt tag.
-<br>Each table row is defined with the &lttr&gt tag.</br><br>A table header is defined with the &ltth&gt tag.</br><br>A table data/cell is defined with the &lttd&gt tag.</p>
+    <p>An HTML table is defined with the &lt;table&gt; tag.
+<br>Each table row is defined with the &lt;tr&gt; tag.</br>
+<br>A table header is defined with the &lt;th&gt; tag.</br>
+<br>A table data/cell is defined with the &lttd&gt tag.</br></p>
 <p>Examples:</p>
 <table style="width:100%">
   <tr>
@@ -149,16 +164,19 @@ The &ltdl&gt tag defines the description list, while the &ltdt&gt tag defines th
     <td>94</td>
   </tr>
 </table>
+<a href="https://www.w3schools.com/html/html_tables.asp">w3schools Link</a>
   </div>
   
   <div>
     <h3>Blocks</h3>
-    <p>The &ltdiv&t element has no required attributes, but both style and class are common. When used together with CSS, the &ltdiv&gt element can be used to style blocks of content</p>
+    <p>The &lt;div&gt; element has no required attributes, but both style and class are common. When used together with CSS, the &ltdiv&gt element can be used to style blocks of content</p>
     <p>Examples:</p>
     <div style="background-color:black;color:white;padding:20px;">
   <h2>London</h2>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div>
   </div>
-</html>
+  <a href="https://www.w3schools.com/tags/tag_div.asp">w3schools Link</a>
 
+
+</html>
