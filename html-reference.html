@@ -23,25 +23,25 @@
   </tr>
   </tr>
   <tr>
-    <td><a href="#html">HTML</a></td>
+    <td><a href="#HTMLelements">HTML</a></td>
     <td>&lt;html&gt;</td> 
     <td>&lt;/html&gt;</td>
     <td>&lt;html&gt;head and body&lt;/html&gt:</td>
   </tr>
   <tr>
-    <td><a href="#head">Head</a></td>
+    <td><a href="#HTMLelements">Head</a></td>
     <td>&lt;head&gt;</td> 
     <td>&lt;/head&gt;</td>
     <td>&lt;head&gt;head element&lt;/head&gt;</td>
   </tr>
   <tr>
-    <td><a href="#title">Title</a></td>
+    <td><a href="#HTMLelements">Title</a></td>
     <td>&lt;title&gt;</td> 
     <td>&lt;/title&gt;</td>
     <td>&lt;title&gt;page's title&lt;/title&gt;</td>
   </tr>
   <tr>
-    <td><a href="#body">Body</a></td>
+    <td><a href="#HTMLelements">Body</a></td>
     <td>&lt;body&gt;</td> 
     <td>&lt;/body&gt;</td>
     <td>&lt;body&gt;body's element&lt;/body&gt;</td>
@@ -103,11 +103,11 @@
     <td>&lt;table&gt;
     <td>&lt;tr&gt;
     &lt;th&gt;heading of columns&lt;/th&gt;
-    &lt;td&gt;information inside table&lt;/td&gt;</td>
-    &lt;/table&gt;
+    &lt;td&gt;information inside table&lt;/td&gt;
+    &lt;/table&gt;</td>
   </tr>
   <tr>
-    <td><a href="blocks">Blocks</a></td>
+    <td><a href="#blocks">Blocks</a></td>
     <td>&lt;div&gt;</td>
     <td>/div</td>
     <td>&lt;div&gt;&lt;div&gt;</td>
@@ -125,7 +125,8 @@
 Browsers do not display the HTML tags, but use them to render the content of the page
 <br>Each page contains:</br></h2>
 <img src="/httpatomoreillycomsourceoreillyimages1495723.png" width="200" height="100">
-  <h1 style="color:red;">HTML elements</h1>
+ 
+  <h1 id="HTMLelements">HTML elements</h1>
   <h3>What consitutes a valid HTML page?</h3>
   
   <p>All HTML pages contain the following elements which determine the functionality of the page in chronological order:</p>
@@ -133,22 +134,22 @@ Browsers do not display the HTML tags, but use them to render the content of the
     <li>&lt;!DOCTYPE html&gt : must be the very first thing in your HTML document, before the lt;htmlgt; tag.
 
 The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.<br><a href="https://www.w3schools.com/tags/tag_doctype.asp">w3schools Link</a></br></li>
-    <li id="html">&lt;html&gt; : tells the browser that this is an HTML document.     
+    <li id="HTMLelements">&lt;html&gt; : tells the browser that this is an HTML document.     
     <br>(<a href="https://www.w3schools.com/tags/tag_html.asp">w3schools Link</a></br></li>
-    <li>&lthead&gt : This element is a container for metadata (data about data) and is placed between the html tag and the body tag.
+    <li id="HTMLelements">&lthead&gt : This element is a container for metadata (data about data) and is placed between the html tag and the body tag.
     <br><a href="https://www.w3schools.com/tags/tag_head.asp">w3schools Link</a></br></li>
-    <li>&ltbody&gt : contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc
+    <li id="HTMLelements">&ltbody&gt : contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc
     <br><a href="https://www.w3schools.com/tags/tag_body.asp">w3schools Link</a></br></li>
-    <li>&lttitle&gt  : required in all HTML documents and it defines the title of the document
+    <li id="HTMLelements">&lttitle&gt  : required in all HTML documents and it defines the title of the document
     <br><a href="https://www.w3schools.com/tags/tag_title.asp">w3schools Link</a></li>
     </ol>
   
   <div>
-    <h3 id="heading"
-   <h3>Heading</h3>
+    <h3 id="heading">Heading</h3>
    <p>Headings are defined with the &lth1&gt to &lth6&gt tags. 
    Each number determines the size of the heading</p>
    <p>Example:</p>
+   <p>&lth1&gtheading&lt/h1&gt</p>
    <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -159,57 +160,63 @@ The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web b
 </div>
 
 <div>
-  <h3>Paragraph</h3>
+  <h3 id="paragraph">Paragraph</h3>
   <p>&ltp&gt defines a paragraph</p>
+  <p>Syntax: &ltp&gtwrite your info here&lt/p&gt</p>
   <p>All of this writing is an example of paragraphs
   <br>You can add different spaces, colors, fonts and sizes and etc depending on your coding...</p>
   <a href="https://www.w3schools.com/html/html_paragraphs.asp">w3schools Link</a>
 </div>
   
 <div>
-  <h3>Line Breaks</h3>
+  <h3 id="breaks">Line Breaks</h3>
   <p>&ltbr&gt defines breaks between lines (inserts a single line break)</p>
+  <p>it may look something like: &ltp&gtinfo &ltbr&gt here&lt/br&gt&lt/p&gt</p>
   <p>You can use it in the <br>beginning</br><br>middle</br> <br>or end</br><br> of the sentence</br></p>
   <a href="https://www.w3schools.com/tags/tag_br.asp">w3schools Link</a>
 </div>  
   
   <div>
-   <h3>Lines</h3> 
+   <h3 id="lines">Lines</h3> 
    <p>&lthr&gt creates a line between one section of the writing or another (Use this tag to define a thematic change in the content)</p> 
-   <p>Example</p>
+   <p>Example:</p>
+   <p>&lt;p&gt;info &lthr&gt here&lthr&gt&lt/p&gt</p>
    <p><hr> I can have a separation between multiple texts through lines</hr></p>
    <p><hr> </hr></p>
    <a href="https://www.w3schools.com/tags/tag_hr.asp">w3schools Link</a>
   </div>
   
   <div>
-   <h3>Comments</h3> 
+   <h3 id="comments">Comments</h3> 
     <p>&lt !--      -- &gt. Through this tag, one can add notifications and reminders in the code source itself</p>
-    <p>It will look like this <br> &lt!-- Write your comments here--&gt </br></p>
+   <p>Syntax + Example:</p>
+    <p>&lt;p&gt;info here&gt</p>
+    <p>&lt !-- comment here --&gt </p>
     <a href="https://www.w3schools.com/html/html_comments.asp">w3schools Link</a>
   </div>
   
   <div>
-    <h3>Links</h3>
+    <h3 id="links">Links</h3>
     <p>&lta&gt is used to create links to other pages/websites/subpages...</p>
     <p>Links may be included in texts and images</p>
     <p>Syntax:</p> 
-    <p> The &lta href&gt attribute specifies the destination address</p>
-    <p>Also (in images): &lta href="certain text"&gt
+    <p> The &lta href="url"&gtLink Text&lt;/a&gt; attribute specifies the destination address</p>
+    <p>Also (in images): &lta href="url"&gt
     &ltimg src="local/public link"&gt
-    &lta&gt</p>
+    &lt/a&gt</p>
     <p>Examples:</p>
     <a href="https://www.w3schools.com/html/html_images.asp">
       <img src="/images/6gb1reryFyEpj5xbcMPazWY9Nr2.jpg" style="width:100px;height:100px;border:0;">
     </a>
-    <br><a href="https://www.w3schools.com/html/html_links.asp">Visit Links HTML tutorial</a></br>
+    <p><br><a href="https://www.w3schools.com/html/html_links.asp">Visit Links HTML tutorial</a></br></p>
   </div>
   
   <div>
-    <h3>Images</h3>
+    <h3 id="images">Images</h3>
     <p>&ltimg&gt define an image</p>
     <p>The &ltimg&gt tag is empty, it contains attributes only, and does not have a closing tag.
     <br>The "src" attribute specifies the URL (web address) of the image:</br></p>
+   <p>Syntax: &lt;img src="url"&gt; </p>
     <p>One can also add the width and hight through the following syntax:
     style="width:500px;height:600px;"</p>
     <p>Example:</p>
@@ -220,9 +227,10 @@ The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web b
   </div>
   
   <div>
-  <h3>Lists</h3>
+  <h3 id="lists">Lists</h3>
   <p>There are 3 ways to show lists</p>
   <p> Unordered lists: It starts with the &ltul&gt tag. Each list item starts with the &ltli&gt tag. The list items will be marked with bullets (small black circles) by default (but can be changed): </p>
+  <p>Syntax: &lt;ul&gt; &lt;li&gt;list here&lt;/li&gt; &lt;/ul&gt;</p>
   <p>Example:</p>
   <ul>
   <li>Coffee</li>
@@ -230,6 +238,7 @@ The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web b
   <li>Milk</li>
 </ul>
   <p> Oredered Lists: It starts with the &ltol&gt tag. Each list item starts with the &ltli&gt tag. The list items will be marked with numbers by default (but can bec changed through the type attribute)</p>
+  <p>Syntax: &lt;ol&gt; &lt;li&gt;list here&lt;/li&gt; &lt;/ol&gt;</p>
   <p>Example:</p>
   <ol>
   <li>Coffee</li>
@@ -249,11 +258,12 @@ The &lt;dl&gt; tag defines the description list, while the &ltdt&gt tag defines 
   </div>
   
   <div>
-    <h3>Tables</h3>
+    <h3 id="tables">Tables</h3>
     <p>An HTML table is defined with the &lt;table&gt; tag.
 <br>Each table row is defined with the &lt;tr&gt; tag.</br>
 <br>A table header is defined with the &lt;th&gt; tag.</br>
 <br>A table data/cell is defined with the &lttd&gt tag.</br></p>
+<p>Syntax: &lt;table&gt; &lt;tr&gt; &lt;th&gt;heading of columns&lt;/th&gt; &lt;td&gt;info of table&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</p>
 <p>Examples:</p>
 <table style="width:100%">
   <tr>
@@ -276,7 +286,7 @@ The &lt;dl&gt; tag defines the description list, while the &ltdt&gt tag defines 
   </div>
   
   <div>
-    <h3>Blocks</h3>
+    <h3 id="blocks">Blocks</h3>
     <p>The &lt;div&gt; element has no required attributes, but both style and class are common. When used together with CSS, the &ltdiv&gt element can be used to style blocks of content</p>
     <p>Examples:</p>
     <div style="background-color:black;color:white;padding:20px;">
@@ -286,28 +296,5 @@ The &lt;dl&gt; tag defines the description list, while the &ltdt&gt tag defines 
   </div>
   <a href="https://www.w3schools.com/tags/tag_div.asp">w3schools Link</a>
 
-
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
