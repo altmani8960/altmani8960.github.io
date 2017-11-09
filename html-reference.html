@@ -9,10 +9,21 @@
       h1 {color: pink; font-family: serif;}
     </style>
   </head>
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <style>
+      h1 {color: pink; font-family: serif;}
+    </style>
+  </head>
   <body>
     <script src="index.js"></script>
   
-   <a href="/index.html">
+  <a href="/index.html">
     <img src="https://static.wixstatic.com/media/0be6f0_ae2a9b5ebd054af5ba3c0f0231ac4a52.png" style="width:50px; height:50px">
   </a>
   <h1>REFERENCE PAGE</h1>
@@ -30,13 +41,13 @@
     <td><a href="#HTMLelements">HTML</a></td>
     <td>&lt;html&gt;</td> 
     <td>&lt;/html&gt;</td>
-    <td>&lt;html&gt;head and body&lt;/html&gt;:</td>
+    <td>&lt;html&gt;<br>head and body<br>&lt;/html&gt;:</td>
   </tr>
   <tr>
     <td><a href="#HTMLelements">Head</a></td>
     <td>&lt;head&gt;</td> 
     <td>&lt;/head&gt;</td>
-    <td>&lt;head&gt;head element&lt;/head&gt;</td>
+    <td>&lt;head&gt;<br>head element<br>&lt;/head&gt;</td>
   </tr>
   <tr>
     <td><a href="#HTMLelements">Title</a></td>
@@ -127,7 +138,7 @@
   
   <br><h2>Each page contains:</h2>
   <br> 
-  <img src="https://altmani8960.github.io/images/httpatomoreillycomsourceoreillyimages1495723.png" width="500" height="300">
+  <img src="https://altmani8960.github.io/images/httpatomoreillycomsourceoreillyimages1495723.png" width="500" height="450">
  
   <h2 id="HTMLelements">HTML elements</h2>
   
@@ -135,8 +146,7 @@
   
   <p>All HTML pages contain the following elements which determine the functionality of the page in chronological order:</p>
   
- 
-    <!--This is all a list of what is Required! for an html page-->
+  <!--This is all a list of what is Required! in an html page-->
   <ol>
     
     <li><p>&lt;!DOCTYPE html&gt; :</p>
@@ -144,7 +154,7 @@
     
     <br><li id="HTMLelements"> &lt;html&gt; : 
     <p>tells the browser that this is an HTML document. Required in all HTML documents.</p>
-   &lt;html&gt;body element&lt;/html&gt;
+   &lt;html&gt;<br>body element<br>&lt;/html&gt;
     <p><a href="https://www.w3schools.com/tags/tag_html.asp">w3schools Link</a></p></li>
    
     <li id="HTMLelements">&lt;head&gt; : 
@@ -159,7 +169,7 @@
     
     <li id="HTMLelements">&lt;title&gt; : 
     <p>required in all HTML documents. Defines the title of the document</p>
-    <p>&lt;title&gt;<br>title content&lt;/title&gt;</p>
+    <p>&lt;title&gt;<br>title content<br>&lt;/title&gt;</p>
     <a href="https://www.w3schools.com/tags/tag_title.asp">w3schools Link</a></li>
     </ol>
   
@@ -197,6 +207,9 @@
   <h3>Syntax:</h3>
   <p>&lt;p&gt;write your info here&lt;/p&gt;</p>
   <h3>Example:</h3>
+  <p>&lt;p&gt;All of these writings are written as paragraphs&lt;p&gt;
+  <br>&lt;p style="color:red"&gt;You can add different spaces, colors, fonts and sizes and etc depending on your coding...&lt;/p&gt;</p>
+  
      <div class="example">
   <p>All of these writings are written as paragraphs</p>
   <p style="color:red">You can add different spaces, colors, fonts and sizes and etc depending on your coding...</p>
@@ -212,7 +225,7 @@
   <h3>Syntax:</h3>
   <p>&lt;p&gt;info &lt;br&gt; here&lt;/p&gt;</p>
   <h3>Example:</h3>
-  <p>&lt;p&gt;You can use it in the &lt;br&gt;beginning<br>&lt;br&gt;middle <br>&lt;br&gt;or end<br>&lt;br&gt; of the sentence</p>
+  <p>&lt;p&gt;You can use it in the &lt;br&gt;beginning<br>&lt;br&gt;middle <br>&lt;br&gt;or end<br>&lt;br&gt; of the sentence&lt;/p&gt;</p>
      <div class="example">
   <p>You can use it in the <br>beginning<br>middle <br>or end<br> of the sentence</p>
   </div>
@@ -222,12 +235,14 @@
   
    <h2 id="lines">Lines</h2> 
    <h3>Description:</h3>
-   <p>&lt;hr&gt; creates a line between one section of the writing or another (Use this tag to define a thematic change in the content). This does not have any closing tag!</p> 
+   <p>&lt;hr&gt; creates a line between one section of the writing or another (Use this tag to define a thematic change in the content)</p> 
    <h3>Syntax:</h3>
-   <p>&lt;p&gt;info &lt;hr&gt;here&lt;/p&gt;</p>
+   <p>&lt;p&gt;info &lt;hr&gt;here&lt;hr&gt;&lt;/p&gt;</p>
    <h3>Example:</h3>
+   <p>&lt;p&gt; &lt;hr&gt; I can have a separation between multiple texts through lines&lt;/p&gt;
+   <br> &lt;p&gt; &lt;hr&gt; &lt;/p&gt;</p>
       <div class="example">
-   <p> <hr> I can have a separation between multiple texts through lines</p>
+   <p><hr>I can have a separation between multiple texts through lines</p>
    <p> <hr> </p>
    </div>
    <a href="https://www.w3schools.com/tags/tag_hr.asp">w3schools Link</a>
@@ -274,11 +289,12 @@
    <h3>Syntax:</h3>
    <p>&lt;img src="url"&gt; </p>
     <h3>Example:</h3>
-       <div class="example">
+     <div class="example">
+         <!--this image doesn't work in repl.it but it does through the github link-->
     <a href="http://3.bp.blogspot.com/-DYxQYTj7d3c/UhdxTnrbAfI/AAAAAAAAArg/Fdti-VE1Udc/s1600/546808_490710680963071_580296017_n.jpg" style="width:200px;height:200px;">
-      <img src="/images/ilit.png" style="width:100px;height:100px;border:0;">
+    <img src="/images/ilit.png" style="width:150px;height:100px;border:0;">
     </a>
-    </div>
+     </div>
     <a href="https://www.w3schools.com/html/html_links.asp">w3schools Link</a>
   
   
@@ -289,6 +305,7 @@
   <h3>Syntax:</h3>
   <p>&lt;ul&gt; <br>&lt;li&gt;list here&lt;/li&gt;<br>&lt;/ul&gt;</p>
   <h3>Example:</h3>
+  <p>&lt;ul&gt; <br>&lt;li&gt;Coffee&lt;/li&gt;<br>&lt;li&gt;Tea&lt;/li&gt;<br>&lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;</p>
     <div class="example">
   <ul>
   <li>Coffee</li>
@@ -299,24 +316,14 @@
   <p> Oredered Lists: It starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag. The list items will be marked with numbers by default (but can bec changed through the type attribute)</p>
   <h3>Syntax:</h3> 
   <p>&lt;ol&gt;<br>&lt;li&gt;list here&lt;/li&gt;<br>&lt;/ol&gt;</p>
-  <p>Example:</p>
+  <h3>Example:</h3>
+  &lt;ol&gt;<br>&lt;li&gt;coffee&lt;/li&gt;<br>&lt;li&gt;tea&lt;/li&gt;<br>&lt;li&gt;milk&lt;/li&gt;<br>&lt;/ol&gt;
      <div class="example">
   <ol>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol>
-</div>
-  <p> A Description List: A description list is a list of terms, with a description of each term.
-The &lt;dl&gt; tag defines the description list, while the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term </p>
-<h3>Example:</h3>
-   <div class="example">
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>  
 </div>
 <a href="https://www.w3schools.com/html/html_lists.asp">w3schools Link</a>
 
@@ -329,12 +336,12 @@ The &lt;dl&gt; tag defines the description list, while the &lt;dt&gt; tag define
 <br>A table header is defined with the &lt;th&gt; tag.
 <br>A table data/cell is defined with the &lt;td&gt; tag.</p>
 <h3>Syntax:</h3>
-<br>&lt;table&gt; 
+<p>&lt;table&gt; 
 <br>&lt;tr&gt; 
 <br>&lt;th&gt;heading of columns&lt;/th&gt;
 <br>&lt;td&gt;info of table&lt;/td&gt;
 <br>&lt;/tr&gt; 
-<br>&lt;/table&gt;
+<br>&lt;/table&gt;</p>
 <h3>Examples:</h3>
    <div class="example">
 <table id="#inlinetable">
@@ -363,36 +370,19 @@ The &lt;dl&gt; tag defines the description list, while the &lt;dt&gt; tag define
     <h3>Description:</h3>
     <p>The &lt;div&gt; element has no required attributes, but both style and class are common. When used together with CSS, the &lt;div&gt; element can be used to style blocks of content</p>
     <h3>Syntax:</h3>
-    <p>&lt;div&gt;</p>
-    <p>headings, paragraphs...</p>
-    <p>&lt;/div&gt;</p>
-    <p>Examples:</p>
+    <p>&lt;div&gt;
+    <br>headings, paragraphs...
+    <br>&lt;/div&gt;</p>
+    <h3>Examples:</h3>
        <div class="example">
-   
     <div style="background-color:pink;color:black;padding:10px;border-style: dotted; margin-top:10px;margin-bottom:10px;margin-right:10px">
   <h3>London</h3>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
   </div>
-  </div>
-  <a href="https://www.w3schools.com/tags/tag_div.asp">w3schools Link</a>
+  <br><a href="https://www.w3schools.com/tags/tag_div.asp">w3schools Link</a>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
