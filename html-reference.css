@@ -16,7 +16,7 @@ h1 {
   border-style: double;
 }
 
-/** this is for all of the headings for the elements/tags**/
+/** this is for all of the headings for the elements or tags**/
 h2 {
   text-align: left;
   font-family: Courier New;
@@ -25,10 +25,11 @@ h2 {
   color: White;
 }
 
-/** thsi is for all of the examples and displays*/
+/** this is for all of the examples and displays*/
 .example {
   border-style: solid;
   padding-top: 5px;
+  padding-left: 20px;
   background-color: lightblue;
   width: 370px;
   font-family: courier;
