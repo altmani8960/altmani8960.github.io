@@ -1,0 +1,65 @@
+/** this is my body element's part*/ 
+body {
+    background-image: url("http://www.photos-public-domain.com/wp-content/uploads/2011/11/baby-blue-paper-texture-with-flecks.jpg");
+    padding-left: 20px;
+    font-family: Helvetica;
+    
+    
+}
+
+/*the refrence page title*/
+h1 {
+  text-align: center;
+  font-size: 50px;
+  border: 5px solid white;
+  margin: 50px;
+  border-style: double;
+}
+
+/** this is for all of the headings for the elements/tags**/
+h2 {
+  text-align: left;
+  font-family: Courier New;
+  /*the color doesn't work*/
+  background-color: DodgerBlue;
+  color: White;
+}
+
+/** thsi is for all of the examples and displays*/
+.example {
+  border-style: solid;
+  padding-top: 5px;
+  background-color: lightblue;
+  width: 370px;
+  font-family: courier;
+}
+
+/** this is for all of the tables**/
+table {
+    border-collapse: collapse;
+    font-family: Monospace;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*this is for the first row of each table*/
+th {
+    height: 45px;
+    font-size: 20px;
+    background-color: DodgerBlue;
+    font-family: Helvetica;
+    color: white;
+}
+
+td {
+    height: 40px;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+/*for the comment section*/
+.comments {
+  color: grey;
+}
