@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Taagad TV Show- תאג"ד</h1>
+  <p>Israel's bestseller show.</p>
+</div>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="page1.html">Plot</a>
+  <a href="page2.html">About characters</a>
+  <a href="page3.html">Impact in Israel</a>
+  <a href="page4.html">About me</a>
+</div>
+
+<table style="width:100%">
+  <tr>
+    <th>Year</th>
+    <th>Organization</th> 
+    <th>Catagory</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>The City Mouse Awards</td>
+    <td>Series / best original show</td>
+    <td>They Won</td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td>The Israeli Academy of Television</td>
+    <td>Daily Drama</td>
+    <td>Nominated</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Best Actress in a Drama Series/Daily Drama</td>
+    <td>Nominated</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Best Actor in a Drama Series, Daily Drama</td>
+    <td>Nominated</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Directed in a drama series, daily drama</td>
+    <td>Nominated</td>
+  </tr>
+  
+   <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Screenplay in a drama series, daily drama</td>
+    <td>Nominated</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Artistic management</td>
+    <td>Nominated</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Original Music</td>
+    <td>Nominated</td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>The Israeli Academy of Television</td>
+    <td>Soundtrack Design</td>
+    <td>Nominated</td>
+  </tr>
+</table>
+
+</body>
+</html>
