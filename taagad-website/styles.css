@@ -1,0 +1,20 @@
+.content {
+  background-color: hsla(9, 100%, 64%, 0.5);
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+.header {
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/30150156/Plain-Sky-Blue-Background11.jpg")
+}
+
+h1 {
+  font-family: courier;
+}
+
+.img {
+  width: 20px;
+}
