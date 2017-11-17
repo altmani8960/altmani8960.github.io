@@ -58,17 +58,5 @@ img {
   float: inherit;
 }
 
-.hobbies {
-  float: left;
-  width: 50%;
-}
 
-.hobbies2 {
-  float: right;
-  width: 50%;
-}
-
-#currently {
-  width: 100%;
-}
 
