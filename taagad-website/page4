@@ -11,41 +11,76 @@
 
 <div class="header">
   <h1>Taagad TV Show- תאג"ד</h1>
-  <p>Israel's bestseller show.</p>
+   <p style="font-family: courier; font-size:20px">Israel's bestseller show</p>
+  <a href="/index.html">
+    <img src="https://altmani8960.github.io/images/home_icon.jpg" style="width:50px; height:50px">
+  </a>
 </div>
 
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="page1.html">Plot</a>
   <a href="page2.html">About characters</a>
   <a href="page3.html">Impact in Israel</a>
-  <a href="page4.html">About me</a>
+  <a class="active" href="page4.html">About me</a>
 </div>
 
-<div class="row content">
+
+<div class="row">
   <div class="column side">
-    <h2> a small heading</h2>
-    <!-- this doesn't work: the image-->
-    <img src="/6gb1reryFyEpj5xbcMPazWY9Nr2.jpg">
+    <img src="https://altmani8960.github.io/images/karate.png" style="width:100%">
+    <br><img src="https://altmani8960.github.io/images/shevet%20galim.png" style="width:100%">
+    
   </div>
   <div class="column middle">
-    <h2>Summary</h2>
-    <p>The plot focuses on the activities of the battalion medics in Battalion 33 of the Paratroopers in the IDF (Israeli defense forces).
-The series opens with a scene in which Amir, a fighter from the armored corps, experiences hallucinations and opens fire in the direction of the battalion's ambulance. Amir collapses on an iron rod piercing his lungs, loses consciousness and is finally gets hospitalized. It is alleged that he is allergic to cortisone and his behavior is due to an allergic reaction to the substance received by Alex, the battalion doctor. He is replaced by Ivri, a reserve officer who has signed for six months. 
-</p>
-    <p>Daniel, who is deeply connected to Alex, and his colleagues, are working to investigate the truth about Amir's collapse, hoping to bring their doctor back to the unit.
-Later, Daniel discovers that there is something greater and mysterious behind Alex's deposition. Over time, Daniel, Polachek, Ben Lulu and Lia (the main characters) discover a series of life-threatening corruption among prominent IDF officers. Apperently Alex's family, the doctor who was ousted from the battalion, tests sarin on the soldiers to develop anti-gas drugs. The IDF soldiers think that they only receive stimulants.
-All characters, in addition to investigating the corruption, play parts in affairs and romances throughout the show.
-</p>
+<h1 style="color:rgb(240, 240, 240)">My name is Ilit Altman</h1>
+  <p><strong>I moved to San Diego 3 years ago due to my father's job relocation</strong></p>
+  <p>I decided to make a website about this topic because of few reasons:</p>
+  <ul>
+    <li>First, that's one of the BEST TV shows in Israel</li>
+    <li>It made me think a lot of the situation in Israel (we are obligated to serve at least 2 years in the military- which is absurd)</li>
+    <li>I think this is a great portrayal of what many of the soldiers go through (most of the soldiers are under 20)</li>
+  </ul>
+  <hr>
+  <h2>My Hobbies:</h2>
+  <ul>
+    <li>I do Karate</li>
+    
+    <br><li>I am a counselor in the <i>Jewish Israeli Scouts</i></li>
+    
+    <br><li>I like painting</li>
+    <br><li>Reading</li>
+    <br><li>Writing</li>
+    </ul>
+    <hr>
+    <h2>Currently, I am..</h2>
+  <ul>
+    <li>A student, sophmore year</li>
+    <li>Part of a program called: <i>the Humanities Conservatory</i></li>
+    <li>Writing a research paper for MIT</li>
+    <li>Having fun in America</li>
+  </ul>
   </div>
   <div class="column side">
-    <img src="/6gb1reryFyEpj5xbcMPazWY9Nr2.jpg">
+    <br><img src="https://altmani8960.github.io/images/4-613-reading.jpg" style="width:100%">
+    <br><img src="https://altmani8960.github.io/images/0849ba1ac889a29cf9a896f78e13738d--quotes-about-writing-writing-advice.jpg" style="width:100%">
+    <br><img src="https://altmani8960.github.io/images/$_32.jpeg" style="width:100%">
   </div>
 </div>
 
-<div class="footer">
-  <p>Footer</p>
+<div class="footer" style="clear:left">
+    <h3>Refrences</h3>
+  <a href="https://he.wikipedia.org/wiki/%D7%AA%D7%90%D7%92%22%D7%93_(%D7%A1%D7%93%D7%A8%D7%AA_%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94)">Taagad Wikipedia</a>
+  <br><a href="https://www.youtube.com/watch?v=5FAZiLnyYcA">First episode (youtube)</a>
+  <br><a href="https://www.facebook.com/Taagadyes/">Facebook page</a>
+  <br><a href="https://www.google.com/search?tbm=isch&source=hp&biw=1366&bih=629&ei=WsENWtjtEaiP0gL9uZ3gDg&q=%D7%AA%D7%90%D7%92%22%D7%93&oq=%D7%AA%D7%90%D7%92%22%D7%93&gs_l=img.3..0j0i10i30k1l2j0i30k1j0i10i30k1l4j0i30k1l2.9237.9237.0.9527.3.3.0.0.0.0.128.128.0j1.1.0....0...1.1.64.img..2.1.126.0...0.FA6Unm7iYsk#imgrc=_">Images</a>
+  <h3>Website Help</h3>
+  <a href="https://www.w3schools.com/html/default.asp">w3schools website(html)</a>
+  <br><a href="https://www.w3schools.com/css/default.asp">w3schools website(css)</a>
+  <br><a href="www.codecademy.com">Code Academy</a>
+  <br><a href="https://altmani8960.github.io/html-reference.html">Refrence Page</a>
 </div>
-  
+
+
 </body>
-</html>
+  
