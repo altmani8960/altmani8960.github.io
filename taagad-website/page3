@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Website Layout</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="layoutc3.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+  <!-- i need to work on my background color-->
+</style>
 </head>
 <body>
 
 <div class="header">
   <h1>Taagad TV Show- תאג"ד</h1>
-  <p>Israel's bestseller show.</p>
+   <p style="font-family: courier; font-size:20px">Israel's bestseller show</p>
 </div>
 
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="page1.html">Plot</a>
   <a href="page2.html">About characters</a>
-  <a href="page3.html">Impact in Israel</a>
+  <a class="active" href="page3.html">Impact in Israel</a>
   <a href="page4.html">About me</a>
 </div>
+
+<h2>This show became one of the most famous shows in Israel, and aspired a lot of graduates to join the military and become medics.</h2>
+<h2>Here are some of the successes :</h2>
 
 <table style="width:100%">
   <tr>
@@ -30,66 +35,90 @@
     <th>Result</th>
   </tr>
   <tr>
-    <td>2016</td>
-    <td>The City Mouse Awards</td>
-    <td>Series / best original show</td>
-    <td>They Won</td>
+    <td><strong>2016</strong></td>
+    <td><strong>The City Mouse Awards</strong>
+    <br><img src="https://altmani8960.github.io/images/mouse2016.png" style="width:250px; height:150px"></td>
+    <td><strong>Series / best original show</strong></td>
+    <td><strong>They Won</strong></td>
   </tr>
   <tr>
     <td>2017</td>
-    <td>The Israeli Academy of Television</td>
-    <td>Daily Drama</td>
+    <td>The Israeli Academy of Television
+    <br><img src="https://altmani8960.github.io/images/%D7%A4%D7%A8%D7%A1_%D7%94%D7%90%D7%A7%D7%93%D7%9E%D7%99%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94_2016.jpg" style="width:70%"></td>
+    <td>Daily Drama</td>x
     <td>Nominated</td>
   </tr>
   <tr>
-    <td></td>
-    <td>The Israeli Academy of Television</td>
+    <td>2017</td>
+    <td>The Israeli Academy of Television
+    <br><img src="https://altmani8960.github.io/images/res200.jpg" style="width:100%; height:100%"></td>
     <td>Best Actress in a Drama Series/Daily Drama</td>
     <td>Nominated</td>
   </tr>
   
   <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Best Actor in a Drama Series, Daily Drama</td>
     <td>Nominated</td>
   </tr>
   
   <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Directed in a drama series, daily drama</td>
     <td>Nominated</td>
   </tr>
   
    <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Screenplay in a drama series, daily drama</td>
     <td>Nominated</td>
   </tr>
   
   <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Artistic management</td>
     <td>Nominated</td>
   </tr>
   
   <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Original Music</td>
     <td>Nominated</td>
   </tr>
   
   <tr>
-    <td></td>
+    <td>2017</td>
     <td>The Israeli Academy of Television</td>
     <td>Soundtrack Design</td>
     <td>Nominated</td>
   </tr>
 </table>
 
+<div class="footer">
+    <h3>Refrences</h3>
+  <a href="https://he.wikipedia.org/wiki/%D7%AA%D7%90%D7%92%22%D7%93_(%D7%A1%D7%93%D7%A8%D7%AA_%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94)">Taagad Wikipedia</a>
+  <br><a href="https://www.youtube.com/watch?v=5FAZiLnyYcA">First episode (youtube)</a>
+  <br><a href="https://www.facebook.com/Taagadyes/">Facebook page</a>
+  <br><a href="https://www.google.com/search?tbm=isch&source=hp&biw=1366&bih=629&ei=WsENWtjtEaiP0gL9uZ3gDg&q=%D7%AA%D7%90%D7%92%22%D7%93&oq=%D7%AA%D7%90%D7%92%22%D7%93&gs_l=img.3..0j0i10i30k1l2j0i30k1j0i10i30k1l4j0i30k1l2.9237.9237.0.9527.3.3.0.0.0.0.128.128.0j1.1.0....0...1.1.64.img..2.1.126.0...0.FA6Unm7iYsk#imgrc=_">Images</a>
+  <h3>Website Help</h3>
+  <a href="https://www.w3schools.com/html/default.asp">w3schools website(html)</a>
+  <br><a href="https://www.w3schools.com/css/default.asp">w3schools website(css)</a>
+  <br><a href="www.codecademy.com">Code Academy</a>
+  <br><a href="https://altmani8960.github.io/html-reference.html">Refrence Page</a>
+</div>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
