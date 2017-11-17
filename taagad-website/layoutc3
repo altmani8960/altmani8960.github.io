@@ -1,4 +1,4 @@
-  * {
+   * {
     box-sizing: border-box;
 }
 
@@ -17,6 +17,8 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    color: white;
+    font-family: Verdana;
 }
 
 /* Style the topnav links */
@@ -41,6 +43,7 @@ body {
 }
 
 /* A - Create three unequal columns that floats next to each other */
+
 .column {
     float: left;
     padding: 10px;
@@ -75,4 +78,34 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
+
+.aboutme {
+  padding: 10px;
+}
+
+.summary {
+  font-family: cursive;
+  width: 50%;
+  float: left;
+}
+
+.picsforsummary {
+  float: right;
+  width: 50%;
+}
+
+.picsofactors {
+  width: 25%;
+  float: left;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+
