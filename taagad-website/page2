@@ -6,82 +6,121 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="layoutc3.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
+p {
+    font-size: 15px;
+}
+
 </head>
+
 <body>
 
 <div class="header">
   <h1>Taagad TV Show- תאג"ד</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+   <p style="font-family: courier; font-size:20px">Israel's bestseller show</p>
 </div>
 
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="page1.html">Plot</a>
-  <a href="page2.html">About characters</a>
+  <a class="active" href="page2.html">About characters</a>
   <a href="page3.html">Impact in Israel</a>
   <a href="page4.html">About me</a>
 </div>
 
-<div class="row content">
+<div class="row">
   <div class="column side">
     <h2>Main Actors:</h2>
-    <ol>
-    <li>Tomer Kapon</li>
-    <br><li>Danielle Gal</li>
-    <li>Or Adri</li>
-    <li>Shira Naor</li>
-    <li>Din Miroshnikov</li>
-    <br><li>Tom Gartzi'ani</li>
-    <br><li>Eziekel Lazrov</li>
-    <br><li>Oren Pepsimadov</li>
-    <li>Yaniv Zanva</li>
-    <li>Gil Cohen</li>
-    <li>Miky Laon</li>
-    <br><li>Ina Bakelman</li>
-    <br><li>Koby Faraj</li>
-    <li>Alex Carol</li>
-    <br><li>Srael Fiterman</li>
-    <li>Elisha Banai</li>
-    <li>Yoav Donet</li>
-    <br><li>Miran Mankes</li>
-    <li>Rajev Oborukum</li>
-    <li>Samer Koptie</li>
-    </ol>
+    <ul>
+    <li>Tomer Kapon
+    <br><img src="https://altmani8960.github.io/images/Taagad-Season-1-s.jpg" style="width:100%"></li>
+    <li>Danielle Gal
+    <br><img src="https://altmani8960.github.io/images/ROTEM_zbzo8y.jpg" style="width:100%"></li>
+    <li>Or Adri
+    <br><img src="https://altmani8960.github.io/images/%D7%90%D7%95%D7%A8-%D7%90%D7%93%D7%A8%D7%99-%D7%97%D7%AA%D7%95%D7%9A.jpg" style="width:100%"></li>
+    <li>Shira Naor
+    <br><img src="https://altmani8960.github.io/images/5ae99f40-e484-4d57-840c-df098586b076_560_420.jpg" style="width:100%"></li>
+    <li>Din Miroshnikov
+    <br><img src="https://altmani8960.github.io/images/f4123dba-3913-4fea-8462-31f43658e64e.jpg" style="width:100%"></li>
+    <li>Tom Gartzi'ani
+    <br><img src="https://altmani8960.github.io/images/gtratziani_tom01.jpg" style="width:100%"></li>
+    <li>Eziekel Lazrov
+    <br><img src="https://altmani8960.github.io/images/2321927-46.webp" style="width:130px; height:100%"></li>
+    <li>Oren Pepsimadov
+    <br><img src="https://altmani8960.github.io/images/74331273930996501072no.jpg" style="width:100%"></li>
+    <li>Yaniv Zanva
+    <br><img src="https://altmani8960.github.io/images/743303849431006501038no.jpg" style="width:100%"></li>
+   
+    </ul>
   </div>
-  <div class="column middle">
+  <div class="column middle" style="font-size:23px">
     <h2>Characters</h2>
     <ol>
-      <li>Staff Sergeant Daniel Amarilio, battalion commander of battalion 33</li>
-      <li>Corporal Rotem Polak, a paramedic.</li>
-      <li>Sergeant Idan Ben-Lulu, the ambulance driver.</li>
-      <li>Corporal Lia Karni, a medic in the battalion's battalion</li>
-      <li>Sergeant Noam Polczak, a combat medic from a religious home</li>
-      <li>Lieutenant Eitan, commander of the team in the Military Intelligence Corps</li>
-      <li>Major Avri Kasparov, the reserve doctor in the battalion's battalion.</li>
-      <li>Corporal Oren (Tetro) Tetruashvili, combat medic.</li>
-      <li>Corporal Dekel Tagai, a combat medic</li>
-      <li>Sergeant Tomer Partok, medic.</li>
-      <li>Lieutenant Colonel Eran Zehavi, the battalion commander.</li>
-      <li>Sergeant Rona Koparboim, the battalion commander of the battalion</li>
-      <li>Sergeant Major Nissim Peretz, the Master sergeant,</li>
-      <li>Captain (res.) Alex, the doctor who was dismissed from the battalion.</li>
-      <li>Yair Schneider, the Karmiel</li>
-      <li>Roy Polak, Rotem's older brother.</li>
-      <li>Lieutenant Yedidya Visser, a curropt military police officer</li>
-      <li>Cpl. Orian Zeindberg, a soldier in the battalion.</li>
-      <li>Shafiq, a Bedouin, the brother of a detective.</li>
-      <li>Amira, a Bedouin who lived with Shafiq and Hooshhash.</li>
+      <li><strong>Tomer Kapon-</strong> Staff Sergeant Daniel Amarilio, battalion commander of battalion 33</li>
+      <br><li><strong>Danielle Gal-</strong> Corporal Rotem Polak, a paramedic.</li>
+      <br><li><strong>Or Adri-</strong> Sergeant Idan Ben-Lulu, the ambulance driver.</li>
+      <br><li><strong>Shira Naor-</strong> Corporal Lia Karni, a medic in the battalion's battalion</li>
+      <br><li><strong>Din Miroshnikov-</strong>Sergeant Noam Polczak, a combat medic from a religious home</li>
+      <br><li><strong>Tom Gartzi'ani-</strong> Lieutenant Eitan, commander of the team in the Military Intelligence Corps</li>
+      <br><li><strong>Eziekel Lazrov-</strong> Major Avri Kasparov, the reserve doctor in the battalion's battalion.</li>
+      <br><li><strong>Oren Pepsimadov-</strong> Corporal Oren (Tetro) Tetruashvili, combat medic.</li>
+      <br><li><strong>Yaniv Zanva-</strong> Corporal Dekel Tagai, a combat medic</li>
+      <br><li><strong>Gil Cohen-</strong> Sergeant Tomer Partok, medic.</li>
+      <br><li><strong>Mikey Laon-</strong> Lieutenant Colonel Eran Zehavi, the battalion commander.</li>
+      <br><li><strong>Inna Bakelman-</strong> Sergeant Rona Koparboim, the battalion commander of the battalion</li>
+      <br><li><strong>Koby Faraj-</strong> Sergeant Major Nissim Peretz, the Master sergeant,</li>
+      <br><li><strong>Alex Carol-</strong> Captain (res.) Alex, the doctor who was dismissed from the battalion.</li>
+      <br><li><strong>Srael Fiterman-</strong> Yair Schneider, the Karmiel</li>
+      <br><li><strong>Elisha Banai-</strong> Roy Polak, Rotem's older brother.</li>
+      <br><li><strong>Yoav Donet-</strong> Lieutenant Yedidya Visser, a curropt military police officer</li>
+      <br><li><strong>Miran Mankes-</strong> Cpl. Orian Zeindberg, a soldier in the battalion.</li>
+      <br><li><strong>Rajev Oborukum-</strong> Shafiq, a Bedouin, the brother of a detective.</li>
+      <br><li><strong>Samer Koptie-</strong> Amira, a Bedouin who lived with Shafiq and Hooshhash.</li>
     </ol>
-  </div>
-  <div class="column side">
-    <h2>Side</h2>
+    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KXlucDUE1nE" frameborder="0" allowfullscreen></iframe>
     
   </div>
-</div>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
   
+  <div class="column side">
+    <ul>
+       <li>Gil Cohen
+    <br><img src="https://altmani8960.github.io/images/taggg.jpg" style="width:100%"></li>
+    <li>Miky Laon
+    <br><img src="https://altmani8960.github.io/images/SegmentImgNew_406289_22_32_.jpg" style="width:100%"></li>
+    <li>Inna Bakelman
+    <br><img src="https://altmani8960.github.io/images/innabekelman_i.jpg" style="width:100%"></li>
+    <li>Koby Faraj
+    <br><img src="https://altmani8960.github.io/images/%D7%A4%D7%90%D7%A8%D7%92%20%D7%A4%D7%A8%D7%A5.jpg" style="width:100%"></li>
+    <li>Alex Carol
+    <br><img src="https://altmani8960.github.io/images/%D7%90%D7%9C%D7%9B%D7%A1%20%D7%9E%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    <li>Srael Fiterman
+    <br><img src="https://altmani8960.github.io/images/%D7%99%D7%90%D7%99%D7%A8%20%D7%A9%D7%A0%D7%99%D7%99%D7%93%D7%A8%20%D7%9E%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100px; height:100%"></li>
+    <li>Elisha Banai
+    <br><img src="https://altmani8960.github.io/images/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%A8%D7%95%D7%99%20%D7%A4%D7%95%D7%9C%D7%A7%20%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    <li>Yoav Donet
+    <br><img src="https://altmani8960.github.io/images/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%94%20%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    <li>Miran Mankes
+    <br><img src="https://altmani8960.github.io/images/%D7%90%D7%95%D7%A8%D7%99%D7%99%D7%9F%20%D7%9E%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    <li>Rajev Oborukum
+    <br><img src="https://altmani8960.github.io/images/%D7%A8%D7%90%D7%92%D7%91%20%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    <li>Samer Koptie
+    <br><img src="https://altmani8960.github.io/images/%D7%90%D7%9E%D7%99%D7%A8%D7%94%20%D7%AA%D7%90%D7%92%D7%93.jpg" style="width:100%"></li>
+    </ul>
+  </div>
+  </div>
+  
+  <div class="footer">
+    <h3>Refrences</h3>
+  <a href="https://he.wikipedia.org/wiki/%D7%AA%D7%90%D7%92%22%D7%93_(%D7%A1%D7%93%D7%A8%D7%AA_%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94)">Taagad Wikipedia</a>
+  <br><a href="https://www.youtube.com/watch?v=5FAZiLnyYcA">First episode (youtube)</a>
+  <br><a href="https://www.facebook.com/Taagadyes/">Facebook page</a>
+  <br><a href="https://www.google.com/search?tbm=isch&source=hp&biw=1366&bih=629&ei=WsENWtjtEaiP0gL9uZ3gDg&q=%D7%AA%D7%90%D7%92%22%D7%93&oq=%D7%AA%D7%90%D7%92%22%D7%93&gs_l=img.3..0j0i10i30k1l2j0i30k1j0i10i30k1l4j0i30k1l2.9237.9237.0.9527.3.3.0.0.0.0.128.128.0j1.1.0....0...1.1.64.img..2.1.126.0...0.FA6Unm7iYsk#imgrc=_">Images</a>
+  <h3>Website Help</h3>
+  <a href="https://www.w3schools.com/html/default.asp">w3schools website(html)</a>
+  <br><a href="https://www.w3schools.com/css/default.asp">w3schools website(css)</a>
+  <br><a href="www.codecademy.com">Code Academy</a>
+  <a href="https://altmani8960.github.io/html-reference.html">Refrence Page</a>
+</div> 
+
 </body>
 </html>
