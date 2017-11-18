@@ -1,0 +1,59 @@
+body {
+  background-color: hsla(9, 100%, 64%, 0.5);
+  padding: 10px;
+}
+.content p {
+  font-family: Open Sans;
+  color:black;
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+a:link {
+ text-decoration: none;
+}
+
+.header {
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/30150156/Plain-Sky-Blue-Background11.jpg")
+}
+
+h1 {
+  font-family: courier;
+}
+
+table {
+  padding: 10px;
+  font-family: courier;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: DodgerBlue;
+    color: white;
+     height: 50px;
+}
+
+.column middle {
+  width: 100%;
+}
+
+strong {
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  float: inherit;
+}
