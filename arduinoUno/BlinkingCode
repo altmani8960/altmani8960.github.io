@@ -1,0 +1,16 @@
+//LED connected to digital pin 13
+const int LED = 13;
+
+void setup()
+{
+  //initialize the digital pin as an output
+  pinMode (LED, OUTPUT);
+}
+
+void loop()
+{
+    digitalWrite(LED, HIGH);  //turns the LED on
+    delay(1000);            //wait for a second
+    digitalWrite(LED, LOW);  //turns the LED on
+    delay(1000);            //wait for a second
+}
