@@ -7,10 +7,15 @@ void setup()
   pinMode (LED, OUTPUT);
 }
 
-void loop()
+void blinkLED (int timeOn, int timeOff)
 {
     digitalWrite(LED, HIGH);  //turns the LED on
-    delay(1000);            //wait for a second
+    delay(timeOn);             //wait for a second
     digitalWrite(LED, LOW);  //turns the LED on
-    delay(1000);            //wait for a second
+    delay(timeOff);  
+}
+
+void loop()
+{
+    blinkLED (500,50);
 }
