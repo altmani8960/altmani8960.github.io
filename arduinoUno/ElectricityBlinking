@@ -21,5 +21,7 @@ void blinkLED (int timeOn, int timeOff, int numBlinks)
 void loop()
 {
     blinkLED (1000,1000,10);
+    blinkLED (100,100,50);
+    blinkLED (1000,250,20);
 }
   
