@@ -1,11 +1,15 @@
-Blink Assignment
 const int LED = 13;
 void setup()
 {
     pinMode(LED, OUTPUT);
+    Serial.begin(9600);
 }
 void blinkLED (int timeon, int timeoff, int blinkcount)
 {
+    Serial.println("blinkLED start");
+        Serial.println(timeon);
+            Serial.println(timeoff);
+                Serial.println(blinkcount);
     for (int i=0;i <blinkcount;i++)
     {
     digitalWrite(LED, HIGH);
@@ -13,12 +17,15 @@ void blinkLED (int timeon, int timeoff, int blinkcount)
     digitalWrite(LED, LOW);
     delay(timeoff);
     }
+    Serial.end();
 }
 void loop()
 {
     blinkLED(1000,1000,10);
     blinkLED(100,100,50);
     blinkLED(1000,250,20);
+    
+   
 }
 
 
