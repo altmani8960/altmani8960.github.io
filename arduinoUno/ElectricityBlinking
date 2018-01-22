@@ -1,27 +1,24 @@
-//LED connected to digital pin 13
+Blink Assignment
 const int LED = 13;
-
 void setup()
 {
-  //initialize the digital pin as an output
-  pinMode (LED, OUTPUT);
+    pinMode(LED, OUTPUT);
 }
-
-void blinkLED (int timeOn, int timeOff, int numBlinks)
+void blinkLED (int timeon, int timeoff, int blinkcount)
 {
-    for (int i=0;i <=numBlinks;numBlinks++)
+    for (int i=0;i <blinkcount;i++)
     {
-        digitalWrite(LED, HIGH);  //turns the LED on
-        delay(timeOn);             //wait for a second
-        digitalWrite(LED, LOW);  //turns the LED on
-        delay(timeOff);  
+    digitalWrite(LED, HIGH);
+    delay(timeon);
+    digitalWrite(LED, LOW);
+    delay(timeoff);
     }
 }
-
 void loop()
 {
-    blinkLED (1000,1000,10);
-    blinkLED (100,100,50);
-    blinkLED (1000,250,20);
+    blinkLED(1000,1000,10);
+    blinkLED(100,100,50);
+    blinkLED(1000,250,20);
 }
-  
+
+
